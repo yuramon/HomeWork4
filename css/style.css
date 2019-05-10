@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0; /* Відступи*/
+}
+
+html {height: 100%}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #f9fbff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 40px;
+    color: #000000;
+}
+
+img {
+    border: none;
+}
+a {
+    size: 60px;
+    color: #000000;
+    text-decoration: none;
+}
+a.active {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+    color : #5d51aa;
+}
+a, a:hover {
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    transition: all.6s ease;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrap {
+margin: 40px auto 0 auto;
+width: 800px;
+}
+
+header {
+border: 5px solid #222;
+height: 100px;
+background: #333;
+}
+#header h1 {
+font-size: 26px;
+font-weight: 100;
+letter-spacing: -3px;
+padding: 12px 0 5px 10px;
+}
+#header h1 a {
+color: #fff;
+text-decoration: none;
+}
+#header h1 a:hover {
+color: #aaa;
+text-decoration: none;
+}
+#header h2 {
+color: #ccc;
+font-size: 15px;
+font-weight: 100;
+padding: 0 0 0 11px;
+letter-spacing: -1px;
+line-height: 12px;
+}
+
+.left {
+    margin-top: 10px;
+    width: 570px;
+    float: left;
+    text-align: justify;
+    /*border: 5px solid #222;*/
+    padding: 10px;
+    font-size: 85px;
+    color: #5d51aa;
+    background: #333;
+}
+.left h2 {
+color: #FF4800;
+font-size: 24px;
+letter-spacing: -3px;
+font-weight: 100;
+padding : 10px 0 15px 0;
+}
+
+.right {
+margin-top: 10px;
+width: 160px;
+float: right;
+border: 5px solid #222;
+font-size: 12px;
+padding: 10px;
+background: #333;
+}
+.right ul {
+list-style-type: square;
+padding: 5px 10px 10px 20px;
+color: #59799F;
+}
+.right h2 {
+    height: 30px;
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+}
+.right a { text-decoration: none }
+
+#footer {
+margin-top: 10px;
+text-align: center;
+color: #eee;
+font-size: 11px;
+border: 5px solid #222;
+padding: 10px;
+background: #333;
+}
+
+.fig {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+    margin-top: 0; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+    color: #666; /* Цвет подрисуночной подписи */
+}
+
+.form-search {
+    display: inline-block;
+    float: right;
+    margin-bottom: 0;
+    vertical-align: middle;
+    color: #5d51aa;
+
+}
+.sorting {
+    overflow: hidden;
+    font: 20px Tahoma;
+    color: #3b3b3b;
+}
+.sorting p {
+    float: left;
+    text-align: center;
+}
+.sorting > p{
+    margin-right: 15px;
+}
+.sorting p a {
+    color: #3272b0;
+}
+.sorting p a:hover {
+    text-decoration: none;
+    color: #333333;
+}
+.sorting p input {
+    width: 90px;
+}
+.btn-list-menu {
+    background: top no-repeat;
+    width: 45px;
+    height: 22px;
+    margin-left: 20px;
+}
+.btn-list-menu a {
+    margin: 1px;
+}
+.btn-list-menu2 {
+    background: top no-repeat;
+    width: 90px;
+    height: 28px;
+}
+.btn-list-menu2 a {
+    margin: 1px;
+    font: bold 11px Tahoma;
+    color: #fff!important;
+    text-decoration: none;
+}
